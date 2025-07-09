@@ -148,7 +148,7 @@ def evaluate_perplexity(model, eval_loader):
 
 # Usage:
 perplexity = evaluate_perplexity(model, train_loader)
-print(f"Perplexity (small eval): {perplexity:.2f}")
+print(f"Perplexity (small eval): {perplexity:.2f}")          # Perplexity is 28.10
 
 
 # In[ ]:
@@ -178,5 +178,5 @@ def top_k_accuracy(model, loader, k=5):
 
 # Usage:
 acc = top_k_accuracy(model, train_loader, k=5)
-print(f"Top-5 Accuracy (small eval): {acc:.2%}")
+print(f"Top-5 Accuracy (small eval): {acc:.2%}")        # Top-5 Accuracy is 68%
 
